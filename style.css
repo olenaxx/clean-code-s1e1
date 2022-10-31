@@ -38,7 +38,7 @@
 .todo-input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .todo-input-add {
@@ -161,12 +161,12 @@ li > label {
 /* Edit Task */
 
 ul li input[type=text] {
-  display: none
+  display: none;
 }
 
 ul li.edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode label {
