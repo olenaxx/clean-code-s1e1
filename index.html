@@ -16,41 +16,41 @@
 </section>
 <section class="todo">
   <p id="todo-text">
-  <label for="todo-add">Add Item</label>
+  <label class="todo-add" for="todo-add">Add Item</label>
   <div class="todo-input-add">
-    <input id="todo-add" class="todo-input" type="text">
-    <button>Add</button>
+    <input id="todo-add" class="todo-input input-text" type="text">
+    <button class="button">Add</button>
   </div>
   </p>
-  <h3>Todo</h3>
-  <ul id="unfinished-tasks">
+  <h3 class="todo-title">Todo</h3>
+  <ul class="todo-list" id="unfinished-tasks">
     <li>
-      <input type="checkbox">
+      <input class="input-checkbox" type="checkbox">
       <label class="todo-input">Pay Bills</label>
-      <input type="text" class="todo-input">
-      <button class="edit">Edit</button>
-      <button class="delete">
+      <input type="text" class="todo-input input-text">
+      <button class="edit button">Edit</button>
+      <button class="delete button">
         <img src="./remove.svg">
       </button>
     </li>
-    <li class="editMode">
-      <input type="checkbox">
+    <li class="edit-mode">
+      <input class="input-checkbox" type="checkbox">
       <label class="todo-input">Go Shopping</label>
-      <input type="text" value="Go Shopping" class="todo-input">
-      <button class="edit">Save</button>
-      <button class="delete">
+      <input type="text" value="Go Shopping" class="todo-input input-text">
+      <button class="edit button">Save</button>
+      <button class="delete button">
         <img src="./remove.svg">
       </button>
     </li>
   </ul>
-  <h3>Completed</h3>
-  <ul id="completed-tasks">
+  <h3 class="todo-title">Completed</h3>
+  <ul class="todo-list" id="completed-tasks">
     <li>
-      <input type="checkbox" checked>
-      <label class="todo-input">See the Doctor</label>
-      <input type="text" class="todo-input">
-      <button class="edit">Edit</button>
-      <button class="delete">
+      <input class="input-checkbox" type="checkbox" checked>
+      <label class="todo-input through">See the Doctor</label>
+      <input type="text" class="todo-input input-text">
+      <button class="edit button">Edit</button>
+      <button class="delete button">
         <img src="./remove.svg">
       </button>
     </li>
